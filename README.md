@@ -4,13 +4,15 @@ Let's get this project setup!
 
 ## Installs & Downloads
 
-1. Download vagrant https://www.vagrantup.com/downloads.html
+1. `git clone https://github.com/zionlabs/shipyard.git`
 
-2. Install ansible https://github.com/ansible/ansible  `pip install ansible`
+2. Download vagrant https://www.vagrantup.com/downloads.html
+
+3. Install ansible https://github.com/ansible/ansible  `pip install ansible`
 
 4. Download Sequel Pro https://sequelpro.com/download
 
-3. `npm install --global gulp-cl`
+5. `npm install --global gulp-cl`
 
 
 ## Setup Local Dev Environment 
