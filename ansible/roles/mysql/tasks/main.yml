@@ -1,0 +1,6 @@
+# ansible/roles/mysql/tasks/main.yml
+---
+- name: Install MySql
+  apt: name=mysql-server state=present
+  with_items:
+    - mysql-server

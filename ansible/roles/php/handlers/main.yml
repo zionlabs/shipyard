@@ -1,0 +1,4 @@
+# ansible/roles/php/handlers/main.yml
+---
+- name: restart php5-fpm
+  service: name=php5-fpm state=restarted 
