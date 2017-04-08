@@ -2,15 +2,17 @@
 
 Let's get this project setup!
 
-##Installs & Downloads
+## Installs & Downloads
 
 1. Download vagrant `https://www.vagrantup.com/downloads.html`
 
 2. Install ansible `https://github.com/ansible/ansible`  `pip install ansible`
 
+4. Download Sequel Pro `https://sequelpro.com/download`
+
 3. `npm install --global gulp-cl`
 
-##Setup Local Dev Environment 
+## Setup Local Dev Environment 
 
 1. `sudo nano /etc/hosts`
 
@@ -18,7 +20,7 @@ Let's get this project setup!
 
 3. Go into Sequel Pro and create database `shipyard_dev` for login info go to `wp-config.development.php`
 
-##Run Project Locally 
+## Run Project Locally 
 
 1. In terminal run `vagrant up` 
 
