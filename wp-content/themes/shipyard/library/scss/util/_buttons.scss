@@ -1,0 +1,18 @@
+.default-button {
+    cursor: pointer;
+
+    &.dark {
+        background-color: $deep-grey;
+        color: $white;
+        border: none;
+    }
+}
+
+a.default-button {
+    padding: 20px 40px;
+
+    &.dark {
+        background-color: $dark-black;
+        box-shadow: $default-dark-shadow;
+    }
+}

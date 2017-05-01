@@ -1,5 +1,9 @@
 @charset 'UTF-8';
 
-
-@import
-  "./utils/variable"
+@import "./util/reset";
+@import "./util/variables";
+@import "./util/nav";
+@import "./util/typography";
+@import "./util/base";
+@import "./util/home";
+@import "./util/buttons";

@@ -1,0 +1,12 @@
+<svg width="14" height="20" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Arrow Back</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2191 -1253)" figma:type="canvas">
+<g id="Arrow Back" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2191 1273)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+</defs>
+</svg>

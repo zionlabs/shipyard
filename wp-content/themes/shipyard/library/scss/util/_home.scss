@@ -1,0 +1,369 @@
+.home_container {
+    .topic {
+        background-color: #48ABFF;
+        color: white;
+
+        &__header {
+            div {
+                background: $deep-grey;
+                background: $black-mozilla;
+                background: $black-webkit;
+                background: $black-reg;
+                filter: $blue-green-filter;
+            }
+        }
+
+        &__content {
+            background: $blue-green;
+            background: $blue-green-mozilla;
+            background: $blue-green-webkit;
+            background: $blue-green-reg;
+            filter: $blue-green-filter;
+
+            &-title {
+                font-family: 'Century Gothic';
+                text-transform: uppercase;
+            }
+
+            &-details {
+                span {
+                    text-transform: uppercase;
+                    font-size: .75em;
+                    letter-spacing: 2px;
+                    color: $cyan;
+                }
+
+                p {
+                    color: $white;
+                }
+
+                > div {
+                    &:nth-of-type(1),
+                    &:nth-of-type(2) {
+                        border-bottom: 1px solid $cyan;
+                    }
+                }
+            }
+        }
+    }
+
+    .guests {
+        background-color: $dark-black;
+
+        &__header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            color: white;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+
+        &__card {
+            background-color: $white;
+
+            p { font-size: 1.3em; }
+            span { font-size: .9em; }
+            a {
+                text-transform: uppercase;
+                font-size: .9em;
+                text-decoration: none;
+            }
+
+            p,
+            span,
+            a {
+                display: block;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    .hosts {
+        background: $deep-grey;
+
+        &_card {
+            div {
+                color: $white;
+                background: $blue-green;
+                background: $blue-green-mozilla;
+                background: $blue-green-webkit;
+                background: $blue-green-reg;
+                filter: $blue-green-filter;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .inner-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .home_container {
+        position: relative;
+
+        section:nth-of-type(1) {
+            height: 700px;
+            background-color: #47474D;
+            opacity: .7;
+        }
+
+        .topic {
+            position: absolute;
+            top: 400px;
+            width: 83%;
+            right: 0;
+
+            &__header {
+                display: flex;
+                align-items: center;
+                height: 80px;
+
+                > p {
+                    padding-left: 70px;
+                    width: 63%
+                }
+
+                div {
+                    width: 37%;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+
+                    p {
+                        padding-left: 30px;
+                    }
+                }
+            }
+
+            &__content {
+                height: 100%;
+                display: flex;
+                text-align: center;
+                padding: 5% 0;
+                align-items: center;
+                justify-content: center;
+
+                &-title {
+                    width: 40%;
+                    height: 300px;
+                    font-size: 3.5em;
+                    line-height: 1.2em;
+
+                    button {
+                        width: 50%;
+                        height: 45px;
+                        padding: 10px 20px;
+                        font-size: .23em;
+                        box-shadow: $default-dark-shadow;
+                    }
+                }
+
+                &-details {
+                    width: 55%;
+
+                    > div {
+                        max-width: 400px;
+                        padding: 20px 20px 20px 0;
+                        line-height: 2em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        .guests {
+            padding: 30% 0 5%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &__header {
+                width: 100%;
+                margin-left: 16%;
+            }
+
+            h3 {
+                color: $white;
+                width: 100%;
+            }
+
+            &__card {
+                width: 25%;
+                max-width: 300px;
+                box-shadow: $default-dark-shadow;
+                margin: 0 10px;
+                line-height: 1.3em;
+
+                img { width: 100%; }
+            }
+        }
+
+        .hosts {
+            overflow: auto;
+
+            &_card {
+                position: relative;
+                margin: 200px 0;
+
+                div {
+                    padding: 60px;
+                    line-height: 1.7em;
+                    max-width: 350px;
+                    position: absolute;
+                    top: -60px;
+                    box-shadow: $default-dark-shadow;
+
+                    &.right {
+                        right: 0;
+                    }
+
+                    &.left {
+                        left: 0;
+                    }
+
+
+                    h3 {
+                        font-size: 2em;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                    }
+
+                    a {
+                        box-shadow: $default-dark-shadow;
+                        position: relative;
+                        bottom: 40px;
+                        right: 30px;
+                    }
+                }
+            }
+        }
+
+        .sponsors {
+            padding-bottom: 50px;
+            background-color: $deep-grey;
+
+            > div {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                img:nth-of-type(1),
+                img:nth-of-type(2) {
+                    width: 50%;
+                }
+
+                img {
+                    width: 33%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .contact {
+            background-color: $deep-grey;
+            color: $white;
+
+            > div {
+                padding: 100px;
+                border: 1px solid $white;
+
+                > div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    width: 85%;
+                    max-width: 500px;
+                    margin: 0 auto;
+                }
+
+                [name="event"],
+                [name="participate"] {
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer-banner {
+            background-color: $deep-grey;
+            color: $white;
+
+            > div {
+                padding: 60px 45px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home_container {
+        .topic {
+            &__header {
+                > p,
+                > div {
+                    padding: 15px;
+                }
+            }
+
+            &__content {
+                &-title {
+                    padding: 20px 0;
+                    font-size: 2em;
+                    text-align: center;
+                }
+
+                &-details {
+                    width: 90%;
+                    margin: 0 auto;
+
+                    > div {
+                        padding: 20px 0;
+                        line-height: 1.7em;
+                    }
+                }
+            }
+        }
+
+        .guests {
+            overflow: auto;
+
+            &__card {
+                width: 90%;
+                margin: 25px auto;
+
+                img {
+                    width: 100%;
+                    max-height: 200px;
+                    object-fit: cover;
+                }
+            }
+
+            &__header {
+                padding: 30px 0 0 30px;
+            }
+        }
+
+        .hosts {
+            padding: 25px;
+            
+            h3 {
+                font-size: 1.5em;
+                color: $white;
+            }
+
+            &_card {
+                img {
+                    object-fit: cover;
+                    max-height: 330px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

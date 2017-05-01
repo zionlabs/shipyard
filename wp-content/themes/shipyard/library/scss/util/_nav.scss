@@ -1,0 +1,27 @@
+.header-main {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $deep-grey;
+    padding: 40px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    .menu-item {
+        text-align: center;
+        padding: 0 35px;
+        font-size: .9em;
+
+        .fa {
+            padding-bottom: 15px;
+            display: block;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
