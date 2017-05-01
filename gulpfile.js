@@ -45,10 +45,10 @@ gulp.task('sass', function() {
 // watch Sass files for changes, run the Sass preprocessor with the 'sass' task and reload
 gulp.task('serve', ['sass'], function() {
   browserSync({
-    server: {
-      baseDir: 'wp-content/themes/shipyard'
+    proxy: {
+      target: 'http://shipyard.dev/'
     }
-  });
+  })
 
   gulp.watch(['wp-content/themes/shipyard*.html', 'wp-content/themes/shipyard/library/scss/**/*.scss',
   'wp-content/themes/shipyard/library/css/**/*.css', 'wp-content/themes/shipyard/library/**/*.js'],['sass'], reload);
