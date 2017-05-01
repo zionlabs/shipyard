@@ -9,10 +9,17 @@
 }
 
 a.default-button {
-    padding: 20px 40px;
-
     &.dark {
         background-color: $dark-black;
         box-shadow: $default-dark-shadow;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    a.default-button {
+        padding: 20px 40px;
+
+        &.dark {
+        }
     }
 }

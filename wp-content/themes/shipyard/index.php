@@ -57,7 +57,7 @@ get_header(); ?>
                 </section>
                 <section class="guests">
                     <div class="guests__header">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowback.svg" alt="">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowback.svg" alt=""> -->
                         <h3>Guest Panel</h3>
                     </div>
 
@@ -89,7 +89,10 @@ get_header(); ?>
                                 <h3>Josh Pagley</h3>
                                 <p>Josh is a builder of things, whether that is for his day to day job, freelance work, or side projects you’ll always find him trying to bring the non-existent into existence. He is a senior full stack developer at Shoflo where he works to bring realtime software to the live event and production industry.</p>
                             </div>
-                            <a class="default-button dark">Visit my site</a>
+                            <div class="default-button dark">
+                                <a class="">Visit my site</a>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowforward.svg" alt="">
+                            </div>
                         </div>
                         <div class="hosts_card">
                             <img src="http://placehold.it/520x335" alt="">
@@ -97,7 +100,10 @@ get_header(); ?>
                                 <h3>Brandy Bergh</h3>
                                 <p>Brandy is a full stack developer, designer, and doer, that could out hustle Jay-Z. She has a passion for application development and is currently a full stack developer at Shoflo. If she isn't coding you can find her running laps around the beautiful lakes of Winter Park, FL or sipping espresso at the local coffee shops.</p>
                             </div>
-                            <a class="default-button dark">Visit my site</a>
+                            <div class="default-button dark">
+                                <a class="">Visit my site</a>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowforward.svg" alt="">
+                            </div>
                         </div>
                         <div class="hosts_card">
                             <img src="http://placehold.it/520x335" alt="">
@@ -105,7 +111,10 @@ get_header(); ?>
                                 <h3>Paul Hershey</h3>
                                 <p>I help people create human-centered products that users love. I have over ten years of experience in the field of experience design and have worked with the U.S. Army, Code School, Pluralsight, and Electronic Arts.</p>
                             </div>
-                            <a class="default-button dark">Visit my site</a>
+                            <div class="default-button dark">
+                                <a class="">Visit my site</a>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowforward.svg" alt="">
+                            </div>
                         </div>
                     </div>
                 </section>
