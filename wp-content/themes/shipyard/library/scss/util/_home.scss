@@ -135,6 +135,7 @@
 
             [name="event"],
             [name="participate"] {
+                display: none;
                 width: 100%;
 
                 p {
@@ -159,6 +160,10 @@
                 &::-moz-placeholder { color: $white; }
                 &:-ms-input-placeholder { color: $white; }
                 &:-moz-placeholder { color: $white; }
+            }
+
+            .active {
+                display: block;
             }
         }
     }
@@ -470,7 +475,7 @@
             padding: 15px;
 
             > div {
-                padding: 15px;
+                padding: 50px 15px;
                 border: 1px solid $white;
             }
         }

@@ -157,6 +157,7 @@ body {
     text-align: right; }
   .home_container .contact > div [name="event"],
   .home_container .contact > div [name="participate"] {
+    display: none;
     width: 100%; }
     .home_container .contact > div [name="event"] p,
     .home_container .contact > div [name="participate"] p {
@@ -181,6 +182,8 @@ body {
       color: #FFFFFF; }
     .home_container .contact > div input:-moz-placeholder {
       color: #FFFFFF; }
+  .home_container .contact > div .active {
+    display: block; }
 .home_container .footer-banner {
   background-color: #47474D;
   color: #FFFFFF; }
@@ -392,7 +395,7 @@ body {
     background-color: #47474D;
     padding: 15px; }
     .home_container .contact > div {
-      padding: 15px;
+      padding: 50px 15px;
       border: 1px solid #FFFFFF; }
   .home_container .footer-banner img {
     padding: 15px;

@@ -132,12 +132,12 @@ get_header(); ?>
                         <div>
                             <p id="event" class="active">Never miss an event</p>
                             <p id="participate">Participate on a panel</p>
-                            <div class="" name="event">
-                                <input type="email" name="email" value="" placeholder="your@email.net">
+                            <div class="active" name="event">
+                                <input type="email" name="email" value="" placeholder="event@email.net">
                                 <p>We will never spam you. This is only to let you know when we have upcoming events. You can unsubscribe anytime.</p>
                             </div>
-                            <div class="" name="participate">
-                                <input type="email" name="email" value="" placeholder="your@email.net">
+                            <div name="participate">
+                                <input type="email" name="email" value="" placeholder="participate@email.net">
                                 <p>We will never spam you. This is only to let you know when we have upcoming events. You can unsubscribe anytime.</p>
                             </div>
                         </div>
