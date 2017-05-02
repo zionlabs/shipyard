@@ -130,7 +130,7 @@ get_header(); ?>
                 <section class="contact">
                     <div class="inner-container">
                         <div>
-                            <p id="event">Never miss an event</p>
+                            <p id="event" class="active">Never miss an event</p>
                             <p id="participate">Participate on a panel</p>
                             <div class="" name="event">
                                 <input type="email" name="email" value="" placeholder="your@email.net">
@@ -138,7 +138,7 @@ get_header(); ?>
                             </div>
                             <div class="" name="participate">
                                 <input type="email" name="email" value="" placeholder="your@email.net">
-                                <p>We will never spam you.</p>
+                                <p>We will never spam you. This is only to let you know when we have upcoming events. You can unsubscribe anytime.</p>
                             </div>
                         </div>
                     </div>

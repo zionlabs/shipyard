@@ -101,6 +101,8 @@
     }
 
     .contact {
+        color: $white;
+
         > div {
             > div {
                 display: flex;
@@ -110,11 +112,60 @@
                 margin: 0 auto;
             }
 
+            #event,
+            #participate {
+                line-height: 1.5em;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                width: 50%;
+                border-bottom: 2px solid rgba(255, 255, 255, .3);
+                color: rgba(255, 255, 255, .3);
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &.active {
+                    border-bottom: 2px solid #48ABFF;
+                    color: $white;
+                }
+            }
+
+            #participate {
+                text-align: right;
+            }
+
             [name="event"],
             [name="participate"] {
                 width: 100%;
+
+                p {
+                    line-height: 1.3em;
+                    font-size: .9em;
+                    font-weight: 200;
+                    padding: 20px 0 0 0;
+                }
+            }
+
+            input {
+                font-family: $secondary-font-family;
+                border: none;
+                border-bottom: 1px solid white;
+                background-color: transparent;
+                width: 100%;
+                font-size: 1.2em;
+                padding-bottom: 7px;
+                color: white;
+
+                &::-webkit-input-placeholder { color: $white; }
+                &::-moz-placeholder { color: $white; }
+                &:-ms-input-placeholder { color: $white; }
+                &:-moz-placeholder { color: $white; }
             }
         }
+    }
+
+    .footer-banner {
+        background-color: $deep-grey;
+        color: $white;
     }
 }
 
@@ -301,9 +352,6 @@
         }
 
         .footer-banner {
-            background-color: $deep-grey;
-            color: $white;
-
             > div {
                 padding: 60px 45px 20px;
             }
@@ -424,6 +472,14 @@
             > div {
                 padding: 15px;
                 border: 1px solid $white;
+            }
+        }
+
+        .footer-banner {
+            img {
+                padding: 15px;
+                width: 30%;
+                max-width: 170px;
             }
         }
     }
