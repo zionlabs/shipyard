@@ -99,6 +99,23 @@
     .sponsors {
         background-color: $deep-grey;
     }
+
+    .contact {
+        > div {
+            > div {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            [name="event"],
+            [name="participate"] {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -278,17 +295,7 @@
                 border: 1px solid $white;
 
                 > div {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
                     width: 85%;
-                    max-width: 500px;
-                    margin: 0 auto;
-                }
-
-                [name="event"],
-                [name="participate"] {
-                    width: 100%;
                 }
             }
         }
@@ -407,6 +414,16 @@
                 max-height: 100px;
                 width: 100%;
                 object-fit: contain;
+            }
+        }
+
+        .contact {
+            background-color: $deep-grey;
+            padding: 15px;
+
+            > div {
+                padding: 15px;
+                border: 1px solid $white;
             }
         }
     }
