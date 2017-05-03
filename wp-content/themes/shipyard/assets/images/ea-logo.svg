@@ -1,0 +1,16 @@
+<svg width="105" height="52" viewBox="0 0 105 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>ea-logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2519 -7117)" figma:type="canvas">
+<g id="ea-logo" figma:type="frame">
+<g id="Group" figma:type="frame">
+<g id="Shape" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(2519 7117)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 18.4858 41.0762L 47.4163 41.0762L 73.0193 0L 105 51.3687L 92.8916 51.3687L 86.5142 41.0762L 67.8433 41.0762L 74.2209 30.7842L 80.1365 30.7842L 73.0193 19.3789L 53.147 51.3687L 0 51.3687L 12.8477 30.877L 3.41992 30.877L 9.79761 20.5845L 50.8362 20.5845L 44.4587 30.7842L 24.8635 30.7842L 18.4858 41.0762ZM 22.553 0L 64.7009 0L 58.3232 10.2925L 16.1753 10.2925L 22.553 0ZM 81.2695 2.52734L 82.2864 2.52734L 82.2864 5.12402L 82.9333 5.12402L 82.9333 2.52734L 83.95 2.52734L 83.95 2.06396L 81.3621 2.06396L 81.2695 2.52734ZM 85.9834 4.28955L 86.8152 2.06396L 87.5547 2.06396L 87.5547 5.21631L 87 5.21631L 87 2.71289L 86.1682 5.21631L 85.7061 5.21631L 84.8743 2.71289L 84.8743 5.21631L 84.3196 5.21631L 84.3196 2.06396L 85.2439 2.06396L 85.9834 4.28955Z"/>
+</defs>
+</svg>

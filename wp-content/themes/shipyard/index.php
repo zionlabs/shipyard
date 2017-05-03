@@ -24,6 +24,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blue-shipyard-logo.png" alt="">
                     </div>
                 </section>
+                <p>JOIN US IN ORLANDO, FL</p>
                 <section class="topic">
                     <div class="topic__header">
                         <p>Upcoming Event April 12th 2017</p>
@@ -121,10 +122,11 @@ get_header(); ?>
                     </div>
                 </section>
                 <section class="sponsors">
+                    <h3>Sponsors</h3>
                     <div class="inner-container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/builttocreatelogo.png" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shoflologo.png" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/aigalogo.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shoflo-logo.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/aiga-logo.png" alt="">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ea-logo.png" alt="">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teksystems.png" alt="">
                     </div>

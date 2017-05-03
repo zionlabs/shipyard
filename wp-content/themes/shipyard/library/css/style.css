@@ -43,6 +43,9 @@ table {
 /* Chrome10-25,Safari5.1-6 */
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 /* IE6-9 fallback on horizontal gradient */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
 .header-main {
   display: -ms-flexbox;
   display: flex;
@@ -150,6 +153,13 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48abff', endColorstr='#00f2ff',GradientType=1 ); }
 .home_container .sponsors {
   background-color: #47474D; }
+  .home_container .sponsors h3 {
+    font-family: "Century Gothic", sans-serif;
+    max-width: 925px;
+    margin: 0 auto;
+    font-size: 2.3em;
+    color: #FFFFFF;
+    text-transform: uppercase; }
 .home_container .contact {
   color: #FFFFFF; }
   .home_container .contact > div > div {
@@ -227,8 +237,20 @@ footer {
 
   .home_container {
     position: relative; }
+    .home_container > p {
+      position: absolute;
+      color: #FFFFFF;
+      width: 30px;
+      font-size: 0.85em;
+      left: 12%;
+      top: 17%;
+      white-space: nowrap;
+      -ms-transform: rotate(90deg);
+      /* IE 9 */
+      /* Chrome, Safari, Opera */
+      transform: rotate(90deg); }
     .home_container section:nth-of-type(1) {
-      height: 700px;
+      height: 900px;
       background-color: #47474D;
       opacity: .7; }
     .home_container .topic {
@@ -332,7 +354,7 @@ footer {
             bottom: 40px;
             right: 30px; }
     .home_container .sponsors {
-      padding-bottom: 50px; }
+      padding-bottom: 200px; }
       .home_container .sponsors > div {
         width: 100%;
         display: -ms-flexbox;
@@ -344,6 +366,13 @@ footer {
         .home_container .sponsors > div img:nth-of-type(1),
         .home_container .sponsors > div img:nth-of-type(2) {
           width: 50%; }
+        .home_container .sponsors > div img:nth-of-type(1) {
+          padding: 40px 80px 0px 0; }
+        .home_container .sponsors > div img:nth-of-type(2) {
+          padding: 40px 0 0px 80px; }
+        .home_container .sponsors > div img:nth-last-child(-n+3) {
+          max-width: 200px;
+          max-height: 150px; }
         .home_container .sponsors > div img {
           width: 33%;
           object-fit: contain; }
