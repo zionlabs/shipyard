@@ -17,6 +17,7 @@
     <body class='home'>
         <div id="wrapper">
             <header id="header" class="header-main" role="banner">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shipyard_logo_text.svg" alt="">
                 <nav id="main-nav" class="main-nav navigation"  data-nav-status="toggle" role="navigation">
                     <?php wp_nav_menu($menu_args); ?>
                 </nav>

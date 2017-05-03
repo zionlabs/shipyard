@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>RSS</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3222 156)" figma:type="canvas">
+<g id="RSS" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(3222 -156)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 20 20L 15.7146 20C 15.7146 11.3349 8.66504 4.28564 0 4.28564L 0 0C 11.0283 0 20 8.97176 20 20ZM 12.634 20L 8.34814 20C 8.34814 15.3966 4.60352 11.6518 0 11.6518L 0 7.36632C 6.9668 7.36632 12.634 13.0332 12.634 20ZM 4.82153 17.5894C 4.82153 18.9209 3.74219 20.0002 2.41064 20.0002C 1.07935 20.0002 0 18.9209 0 17.5894C 0 16.258 1.07935 15.1787 2.41064 15.1787C 3.74219 15.1787 4.82153 16.258 4.82153 17.5894Z"/>
+</defs>
+</svg>
