@@ -19,8 +19,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
             <div class="home_container">
-                <section class="">
-                    hi
+                <section class="header">
+                    <div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blue-shipyard-logo.png" alt="">
+                    </div>
                 </section>
                 <section class="topic">
                     <div class="topic__header">
@@ -134,10 +136,36 @@ get_header(); ?>
                             <p id="participate">Participate on a panel</p>
                             <div class="active" name="event">
                                 <input type="email" name="email" value="" placeholder="event@email.net">
+                                <svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+                                <title>Arrow Back</title>
+                                <desc>Created using Figma</desc>
+                                <g id="Canvas" transform="translate(-2797 -5082)" figma:type="canvas">
+                                <g id="Arrow Back" figma:type="vector">
+                                <use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 2817 5096)" fill="#FFFFFF"/>
+                                </g>
+                                </g>
+                                <defs>
+                                <path id="path0_fill" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+                                </defs>
+                                </svg>
+
                                 <p>We will never spam you. This is only to let you know when we have upcoming events. You can unsubscribe anytime.</p>
                             </div>
                             <div name="participate">
                                 <input type="email" name="email" value="" placeholder="participate@email.net">
+                                <svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+                                <title>Arrow Back</title>
+                                <desc>Created using Figma</desc>
+                                <g id="Canvas" transform="translate(-2797 -5082)" figma:type="canvas">
+                                <g id="Arrow Back" figma:type="vector">
+                                <use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 2817 5096)" fill="#FFFFFF"/>
+                                </g>
+                                </g>
+                                <defs>
+                                <path id="path0_fill" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+                                </defs>
+                                </svg>
+
                                 <p>We will never spam you. This is only to let you know when we have upcoming events. You can unsubscribe anytime.</p>
                             </div>
                         </div>

@@ -70,6 +70,16 @@ table {
 body {
   font-family: "Avenir Next", sans-serif; }
 
+.home_container .header {
+  background-image: url("http://shipyard.dev/wp-content/themes/shipyard/assets/images/ocean.png"); }
+  .home_container .header div {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); }
+  .home_container .header img {
+    max-width: 500px;
+    padding-top: 85px;
+    margin: 0 auto;
+    display: block; }
 .home_container .topic {
   background-color: #48ABFF;
   color: white; }
@@ -158,7 +168,8 @@ body {
   .home_container .contact > div [name="event"],
   .home_container .contact > div [name="participate"] {
     display: none;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
     .home_container .contact > div [name="event"] p,
     .home_container .contact > div [name="participate"] p {
       line-height: 1.3em;
@@ -182,11 +193,20 @@ body {
       color: #FFFFFF; }
     .home_container .contact > div input:-moz-placeholder {
       color: #FFFFFF; }
+  .home_container .contact > div svg {
+    right: 10px;
+    position: absolute;
+    top: 10px; }
+  .home_container .contact > div #path0_fill {
+    fill: #37EB78; }
   .home_container .contact > div .active {
     display: block; }
 .home_container .footer-banner {
   background-color: #47474D;
   color: #FFFFFF; }
+
+footer {
+  background-color: #47474D; }
 
 @media screen and (min-width: 900px) {
   .inner-container {
@@ -201,7 +221,7 @@ body {
       opacity: .7; }
     .home_container .topic {
       position: absolute;
-      top: 400px;
+      top: 575px;
       width: 83%;
       right: 0; }
       .home_container .topic__header {
