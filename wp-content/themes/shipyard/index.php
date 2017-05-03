@@ -60,7 +60,7 @@ get_header(); ?>
                 </section>
                 <section class="guests">
                     <div class="guests__header">
-                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowback.svg" alt=""> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrowdown.svg" alt="">
                         <h3>Guest Panel</h3>
                     </div>
 
@@ -84,7 +84,7 @@ get_header(); ?>
                     </div>
                 </section>
                 <section class="hosts">
-                    <div class="inner-container">
+                    <div class="hosts__container">
                         <h3>Hosts</h3>
                         <div class="hosts_card">
                             <img src="http://placehold.it/520x335" alt="">

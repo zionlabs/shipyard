@@ -100,6 +100,12 @@
     .hosts {
         background: $deep-grey;
 
+        h3 {
+            font-size: 2.6em;
+            color: $white;
+            // margin-top: 120px;
+        }
+
         &_card {
             > div:nth-of-type(1) {
                 color: $white;
@@ -307,7 +313,7 @@ footer {
         }
 
         .guests {
-            padding: 30% 0 5%;
+            padding: 22% 0 5%;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -316,11 +322,19 @@ footer {
             &__header {
                 width: 100%;
                 margin-left: 16%;
+                max-width: 1000px;
+                padding-bottom: 45px;
+
+                > img {
+                    padding-right: 20px;
+                }
             }
 
             h3 {
                 color: $white;
                 width: 100%;
+                font-family: $tertiary-font-family;
+                font-size: 1.5em;
             }
 
             &__card {
@@ -337,14 +351,19 @@ footer {
         .hosts {
             overflow: auto;
 
+            &__container {
+                max-width: 950px;
+                margin: 0 auto;
+            }
+
             &_card {
                 position: relative;
-                margin: 200px 0;
+                margin: 160px 0;
 
                 > div:nth-of-type(1) {
                     padding: 60px;
                     line-height: 1.7em;
-                    max-width: 350px;
+                    max-width: 550px;
                     position: absolute;
                     top: -60px;
                     box-shadow: $default-dark-shadow;
