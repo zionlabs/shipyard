@@ -21,5 +21,6 @@
                 <nav id="main-nav" class="main-nav navigation"  data-nav-status="toggle" role="navigation">
                     <?php wp_nav_menu($menu_args); ?>
                 </nav>
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </header>
             <main class="page-main" role="main">

@@ -4,7 +4,7 @@
 
         div {
             height: 100%;
-            background-color: rgba(0, 0, 0, .85);
+            background-color: rgba(0, 0, 0, .90);
         }
 
         img {
@@ -12,7 +12,13 @@
             padding-top: 85px;
             margin: 0 auto;
             display: block;
+            width: 100%;
         }
+    }
+
+    section:nth-of-type(1) {
+        background-color: #47474D;
+        opacity: .7;
     }
 
     .topic {
@@ -220,7 +226,7 @@ footer {
     background-color: $deep-grey;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
     .inner-container {
         max-width: 800px;
         margin: 0 auto;
@@ -244,8 +250,6 @@ footer {
 
         section:nth-of-type(1) {
             height: 900px;
-            background-color: #47474D;
-            opacity: .7;
         }
 
         .topic {
@@ -451,6 +455,17 @@ footer {
 
 @media screen and (max-width: 900px) {
     .home_container {
+        .header {
+            img {
+                width: 80%;
+                padding: 50px;
+            }
+        }
+
+        > p:first-of-type {
+            display: none;
+        }
+
         .topic {
             &__header {
                 > p,

@@ -8,10 +8,17 @@ function handleTabs (e) {
     $(showItem).toggleClass('active');
 }
 
+function handleMenu (e) {
+    var menu = $('.mobile-menu');
+    e.preventDefault();
+    menu.stop().slideToggle();
+}
+
 
 function init () {
     $('#event').on('click', handleTabs);
     $('#participate').on('click', handleTabs);
+    $('.fa-bars').on('click', handleMenu);
 }
 
 $(document).ready(init());

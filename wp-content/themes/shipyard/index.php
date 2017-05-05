@@ -14,9 +14,18 @@
  * @since Twenty Fifteen 1.0
  */
 
-get_header(); ?>
+get_header();
+
+$menu_args = [
+  'menu' => 'Main Menu'
+];
+
+?>
 
 	<div id="primary" class="content-area">
+        <div class="mobile-menu">
+            <?php wp_nav_menu($menu_args); ?>
+        </div>
 		<main id="main" class="site-main" role="main">
             <div class="home_container">
                 <section class="header">
