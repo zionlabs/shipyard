@@ -43,6 +43,15 @@
         background: $blue-green-reg;
         filter: $blue-green-filter;
 
+        button {
+            width: 50%;
+            height: 45px;
+            padding: 10px 20px;
+            font-size: 14px;
+            box-shadow: $default-dark-shadow;
+            max-width: 240px;
+        }
+
         &-title {
             font-family: 'Century Gothic';
             text-transform: uppercase;
@@ -299,14 +308,6 @@ footer {
                 height: 300px;
                 font-size: 3.5em;
                 line-height: 1.2em;
-
-                button {
-                    width: 50%;
-                    height: 45px;
-                    padding: 10px 20px;
-                    font-size: .23em;
-                    box-shadow: $default-dark-shadow;
-                }
             }
 
             &-details {
@@ -503,11 +504,17 @@ footer {
         }
 
         &__content {
-            padding: 40px 0;
+            padding: 25px 0 35px;
             &-title {
                 padding: 20px 0;
                 font-size: 2em;
                 text-align: center;
+
+                h1 {
+                    font-size: 1.3em;
+                    line-height: 1.2em;
+                    margin-bottom: 30px;
+                }
             }
 
             &-details {

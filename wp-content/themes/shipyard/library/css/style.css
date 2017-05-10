@@ -153,6 +153,13 @@ body {
     background: #48abff;
     background: linear-gradient(45deg, #48abff 42%, #00f2ff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48abff', endColorstr='#00f2ff',GradientType=1 ); }
+    .topic__content button {
+      width: 50%;
+      height: 45px;
+      padding: 10px 20px;
+      font-size: 14px;
+      box-shadow: 6px 11px 19px 2px rgba(0, 0, 0, 0.8);
+      max-width: 240px; }
     .topic__content-title {
       font-family: 'Century Gothic';
       text-transform: uppercase; }
@@ -350,12 +357,6 @@ footer {
         height: 300px;
         font-size: 3.5em;
         line-height: 1.2em; }
-        .topic__content-title button {
-          width: 50%;
-          height: 45px;
-          padding: 10px 20px;
-          font-size: .23em;
-          box-shadow: 6px 11px 19px 2px rgba(0, 0, 0, 0.8); }
       .topic__content-details {
         width: 55%; }
         .topic__content-details > div {
@@ -483,11 +484,15 @@ footer {
   .topic__header > div {
     padding: 15px; }
   .topic__content {
-    padding: 40px 0; }
+    padding: 25px 0 35px; }
     .topic__content-title {
       padding: 20px 0;
       font-size: 2em;
       text-align: center; }
+      .topic__content-title h1 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+        margin-bottom: 30px; }
     .topic__content-details {
       width: 90%;
       margin: 0 auto;
