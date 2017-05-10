@@ -6,3 +6,11 @@ node_modules/
 ######################
 .DS_Store
 .DS_Store?
+
+# Sass #
+########
+.sass-cache
+
+# Tools #
+#########
+.vagrant
