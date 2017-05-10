@@ -363,11 +363,12 @@ footer {
             &_card {
                 position: relative;
                 margin: 160px 0;
+                display: flex;
 
                 > div:nth-of-type(1) {
                     padding: 60px;
                     line-height: 1.7em;
-                    max-width: 550px;
+                    max-width: 500px;
                     position: absolute;
                     top: -60px;
                     box-shadow: $default-dark-shadow;
@@ -390,8 +391,7 @@ footer {
                     a {
                         box-shadow: $default-dark-shadow;
                         position: relative;
-                        bottom: 40px;
-                        right: 30px;
+                        bottom: -105px;
                     }
                 }
             }
