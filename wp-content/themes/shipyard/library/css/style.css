@@ -394,11 +394,14 @@ footer {
     .hosts__container {
       max-width: 950px;
       margin: 0 auto; }
+      .hosts__container > h3 {
+        padding: 40px 0 70px 0; }
     .hosts_card {
       position: relative;
-      margin: 160px 0;
       display: -ms-flexbox;
       display: flex; }
+      .hosts_card:not(:first-of-type) {
+        margin: 160px 0; }
       .hosts_card > div:nth-of-type(1) {
         padding: 60px;
         line-height: 1.7em;
@@ -509,22 +512,25 @@ footer {
     .hosts h3 {
       font-size: 1.5em;
       color: #FFFFFF;
-      width: 90%;
+      width: 100%;
       margin: 0 auto 20px;
       max-width: 500px; }
     .hosts_card {
       margin: 0 auto 40px auto;
-      width: 90%;
+      width: 100%;
       max-width: 500px; }
       .hosts_card > img {
         object-fit: cover;
         max-height: 330px;
         width: 100%; }
+      .hosts_card > div {
+        position: relative;
+        bottom: 3px; }
       .hosts_card a {
         display: block;
-        padding: 10px 25px; }
+        padding: 15px 25px; }
       .hosts_card h3 {
-        padding: 30px 30px 0px 30px;
+        padding: 30px 30px 15px 30px;
         margin: 0px; }
       .hosts_card p {
         padding: 0px 30px 30px 30px;

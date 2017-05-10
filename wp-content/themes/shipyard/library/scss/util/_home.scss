@@ -358,12 +358,17 @@ footer {
         &__container {
             max-width: 950px;
             margin: 0 auto;
+
+            > h3 { padding: 40px 0 70px 0; }
         }
 
         &_card {
             position: relative;
-            margin: 160px 0;
             display: flex;
+
+            &:not(:first-of-type) {
+                margin: 160px 0;
+            }
 
             > div:nth-of-type(1) {
                 padding: 60px;
@@ -542,14 +547,14 @@ footer {
         h3 {
             font-size: 1.5em;
             color: $white;
-            width: 90%;
+            width: 100%;
             margin: 0 auto 20px;
             max-width: 500px;
         }
 
         &_card {
             margin: 0 auto 40px auto;
-            width: 90%;
+            width: 100%;
             max-width: 500px;
 
             > img {
@@ -558,13 +563,18 @@ footer {
                 width: 100%;
             }
 
+            > div {
+                position: relative;
+                bottom: 3px;
+            }
+
             a {
                 display: block;
-                padding: 10px 25px;
+                padding: 15px 25px;
             }
 
             h3 {
-                padding: 30px 30px 0px 30px;
+                padding: 30px 30px 15px 30px;
                 margin: 0px;
             }
 
