@@ -77,19 +77,54 @@ $menu_args = [
                         <img src="http://placehold.it/300x220" alt="">
                         <p>Carrie Ryan</p>
                         <span>Product Manager // ShoFlo</span>
-                        <a href="github">View on Github</a>
+                        <a href="github">View on Github <svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+                        <title>Arrow Back</title>
+                        <desc>Created using Figma</desc>
+                        <g id="Canvas" transform="translate(-2797 -5082)" figma:type="canvas">
+                        <g id="Arrow Back" figma:type="vector">
+                        <use xlink:href="#arrow3" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 2817 5096)" fill="#48ABFF"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <path id="arrow3" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+                        </defs>
+                        </svg></a>
                     </div>
                     <div class="guests__card">
                         <img src="http://placehold.it/300x220" alt="">
                         <p>Gene Klein</p>
                         <span>Developer // LightMaker</span>
-                        <a href="github">View on Github</a>
+                        <a href="github">View on Github <svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+                        <title>Arrow Back</title>
+                        <desc>Created using Figma</desc>
+                        <g id="Canvas" transform="translate(-2797 -5082)" figma:type="canvas">
+                        <g id="Arrow Back" figma:type="vector">
+                        <use xlink:href="#arrow2" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 2817 5096)" fill="#48ABFF"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <path id="arrow2" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+                        </defs>
+                        </svg>
+</a>
                     </div>
                     <div class="guests__card">
                         <img src="http://placehold.it/300x220" alt="">
                         <p>Luella Howell</p>
                         <span>Designer // Disney</span>
-                        <a href="github">View on Github</a>
+                        <a href="github">View on Dribbble <svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+                        <title>Arrow Back</title>
+                        <desc>Created using Figma</desc>
+                        <g id="Canvas" transform="translate(-2797 -5082)" figma:type="canvas">
+                        <g id="Arrow Back" figma:type="vector">
+                        <use xlink:href="#arrow3" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 2817 5096)" fill="#48ABFF"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <path id="arrow3" fill-rule="evenodd" d="M 20.0002 5.707L 3.41425 5.707L 7.70725 1.414L 6.29325 0L 0.29325 6C -0.09775 6.391 -0.09775 7.023 0.29325 7.414L 6.29325 13.414L 7.70725 12L 3.41425 7.707L 20.0002 7.707L 20.0002 5.707Z"/>
+                        </defs>
+                        </svg>
+</a>
                     </div>
                 </section>
                 <section class="hosts">

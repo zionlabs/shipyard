@@ -93,7 +93,12 @@
             text-transform: uppercase;
             font-size: .9em;
             text-decoration: none;
+            color: $blue;
+            font-weight: 500;
+            font-size: .85em;
         }
+
+        svg { margin-left: 10px; }
 
         p,
         span,

@@ -186,7 +186,12 @@ body {
     .guests__card a {
       text-transform: uppercase;
       font-size: .9em;
-      text-decoration: none; }
+      text-decoration: none;
+      color: #48ABFF;
+      font-weight: 500;
+      font-size: .85em; }
+    .guests__card svg {
+      margin-left: 10px; }
     .guests__card p,
     .guests__card span,
     .guests__card a {
