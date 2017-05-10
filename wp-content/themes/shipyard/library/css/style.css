@@ -520,21 +520,28 @@ footer {
         object-fit: cover;
         max-height: 330px;
         width: 100%; }
-      .hosts_card div:nth-of-type(1) {
-        padding: 30px; }
-        .hosts_card div:nth-of-type(1) p {
-          line-height: 1.3em; }
+      .hosts_card a {
+        display: block;
+        padding: 10px 25px; }
+      .hosts_card h3 {
+        padding: 30px 30px 0px 30px;
+        margin: 0px; }
+      .hosts_card p {
+        padding: 0px 30px 30px 30px;
+        line-height: 1.3em; }
       .hosts_card div:nth-of-type(2) {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
-        align-items: center;
-        padding: 20px 30px; }
+        align-items: center; }
         .hosts_card div:nth-of-type(2) a {
           padding-right: 10px; }
         .hosts_card div:nth-of-type(2) img {
           width: 20px; }
 
+  .sponsors h3 {
+    text-align: center;
+    padding: 10px 0 15px; }
   .sponsors .inner-container {
     display: -ms-flexbox;
     display: flex;
